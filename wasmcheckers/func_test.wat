@@ -57,4 +57,11 @@
     (i32.and (local.get $piece) (i32.const 3))
   )
 
+  (export "offsetForPosition" (func $offsetForPosition))
+  (export "isCrowned" (func $isCrowned))
+  (export "isWhite" (func $isWhite))
+  (export "isBlack" (func $isBlack))
+  (export "withCrown" (func $withCrown))
+  (export "withoutCrown" (func $withoutCrown))
+
 )
